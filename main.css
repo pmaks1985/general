@@ -2,4 +2,21 @@
 .filter-list {
   padding-top: 10px;
 }
+
+.carousel-indicators li {
+  width: 17px !important;
+  height: 17px !important;
+  background-color: #feffff !important;
+  border-radius: 50%;
+  opacity: 1;
+  position: relative;
+}
+
+.carousel-indicators li.active::before {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #dc3545;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */
