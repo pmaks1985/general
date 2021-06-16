@@ -7,17 +7,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="/template_styles.css">
     <link rel="stylesheet" href="/main.css">
     <title>Главная</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-2">
-                Левое меню
+        <div class="row my-3">
+            <div class="col-lg-3 px-0">
+                <div class="filter">
+                    <span class="filter-title pl-2">Объект</span>
+                    <ul class="filter-list pl-0">
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Образовательные
+                                    организации</div>
+                            </a>
+                        </li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Объекты размещения</div>
+                            </a>
+                        </li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Производственные
+                                    предприятия</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Административные
+                                    здания</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Торговые организации</div>
+                            </a>
+                        </li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Офисные здания</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Спортивные
+                                    организации</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Здания религиозного
+                                    назначения</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Пассажирские
+                                    перевозки</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Социальные учреждения</div>
+                            </a>
+                        </li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Медицинские
+                                    организации</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Бытовое обслуживание</div>
+                            </a>
+                        </li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Культурно-просветительские организации</div>
+                            </a>
+                        </li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Питание</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Жилые дома</div>
+                            </a></li>
+                        <li class="dropright"><a class="dropdown-item filter-list_li" href="#">
+                                <div class="text-normal">Объекты хранения</div>
+                            </a></li>
+                        <li class="dropright">
+                            <a class="dropdown-toggle dropdown-item d-flex align-items-center" href="#" role="button"
+                                id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <div class="text-normal">Сельскохозяйственные
+                                    организации</div><i class="bi bi-chevron-right"></i>
+                            </a>
+                            <div class="dropdown-menu keep_open" aria-labelledby="dropdownMenuLink2">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck10">
+                                    <label class="custom-control-label" for="customCheck10">Детский сад</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                    <label class="custom-control-label" for="customCheck11">Детский лагерь</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck21">
+                                    <label class="custom-control-label" for="customCheck21">Школа</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck31">
+                                    <label class="custom-control-label" for="customCheck31">Техникум</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck41">
+                                    <label class="custom-control-label" for="customCheck41">Коледж</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck51">
+                                    <label class="custom-control-label" for="customCheck51">Лицей</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck61">
+                                    <label class="custom-control-label" for="customCheck61">Университет</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck71">
+                                    <label class="custom-control-label" for="customCheck71">Институт</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck81">
+                                    <label class="custom-control-label" for="customCheck81">Организация ДПО</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck91">
+                                    <label class="custom-control-label" for="customCheck91">Автошкола</label>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
-            <div class="col-10">
+            <div class="col-lg-9">
                 Контент
             </div>
         </div>
