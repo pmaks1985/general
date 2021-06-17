@@ -8,14 +8,54 @@
     height: 17px !important;
     background-color: #feffff !important;
     border-radius: 50%;
-    opacity: 1;
     position: relative;
 }
 
-.carousel-indicators li.active::before {
+/*.carousel-indicators li.active::before {
     position: absolute;
     width: 9px;
     height: 9px;
     background-color: #dc3545;
     border-radius: 50%;
+}*/
+
+.carousel-caption {
+    text-align: start;
+    left: 5%;
+}
+
+.slide-title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #212529;
+}
+
+.slide-title_key {
+    color: #dc3545;
+}
+
+.slide-description {
+    font-family: "MyriadPro-Regular";
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #212529;
+    padding-top: 15px;
+}
+
+.slide-description_price {
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.slide-description_list {
+    padding-top: 20px;
+    max-width: 50%;
+    padding-bottom: 10px;
+}
+
+.slide-description_list>li {
+    padding-top: 10px;
 }
