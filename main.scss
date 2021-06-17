@@ -59,3 +59,95 @@
 .slide-description_list>li {
     padding-top: 10px;
 }
+
+.promoter {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #343a40;
+    padding-top: 30px;
+}
+
+.promoter_title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.three-steps {
+    background-color: #ffffff;
+    border: 2px solid #f5efe9;
+    border-radius: 8px;
+    padding: 10px 30px 35px 30px;
+    margin-top: 20px;
+}
+
+.three-steps_title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.three-steps_cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.three-steps_cards__text {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #343a40;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.three-steps_cards__img {
+    min-height: 55px;
+}
+
+.three-steps_cards__img-step1 {
+    background-image: url("/img/step1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    min-height: 3.5rem;
+}
+
+.three-steps_cards__img-step2 {
+    background-image: url("/img/step2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    min-height: 3.5rem;
+}
+
+.three-steps_cards__img-step3 {
+    background-image: url("/img/step3.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    min-height: 3.5rem;
+}
+
+.point {
+    width: 15px;
+    height: 15px;
+    background-color: #f8d7da;
+    border-radius: 3px;
+    align-self: center;
+    margin-bottom: 5rem;
+}
+
+.three-steps_description {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #343a40;
+    padding-top: 35px;
+}
