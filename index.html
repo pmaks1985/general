@@ -9,6 +9,8 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="/template_styles.css">
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/owl.carousel.min.css">
+    <link rel="stylesheet" href="/lightbox.min.css">
     <title>Главная</title>
 </head>
 
@@ -201,11 +203,64 @@
                     </a>
                 </div>
             </div>
+            <div style="margin-top: 90px;">Популярные товары</div>
+            <div class="why-are-we row w-100">
+                <div class="why-are-we_text col-lg-5">
+                    <div class="how-work_title">Почему мы?</div>
+                    <div class="why-are-we_text__description">Наши специалисты прошли добровольную сертификацию
+                        и подтвердили свою компетентность в области пожарной
+                        безопасности. Вот почему вы можете быть уверены,
+                        что мы оформим документы на 100% правильно
+                        с юридической точки зрения</div>
+                </div>
+                <div class="why-are-we_slider col-lg-7 pr-0">
+                    <div class="owl-carousel" id="carouselOne">
+                        <div><a href="/img/Котосов.png" data-lightbox="image"><img src="/img/Котосов.png" alt=""></a>
+                        </div>
+                        <div><a href="/img/Солнцев.png" data-lightbox="image"><img src="/img/Солнцев.png" alt=""></a>
+                        </div>
+                        <div><a href="/img/диплом солнцев цвет.jpg" data-lightbox="image"><img
+                                    src="/img/диплом солнцев цвет.jpg" alt=""></a>
+                        </div>
+                        <div><a href="/img/Котосов.png" data-lightbox="image"><img src="/img/Котосов.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
     <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/lightbox.min.js"></script>
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#carouselOne').owlCarousel({
+                loop: true, //Зацикливаем слайдер
+                margin: 18, //Отступ от элемента справа в 18px
+                nav: true, //Включение навигации
+                autoplay: true, //Автозапуск слайдера
+                //autoWidth: true,
+                smartSpeed: 1000, //Время движения слайда
+                autoplayTimeout: 2000, //Время смены слайда
+                center: true,
+                responsive: { //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>
