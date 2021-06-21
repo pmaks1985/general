@@ -220,3 +220,38 @@
     width: 204px !important;
     height: 292px;
 }
+
+.owl-stage .owl-item,
+.owl-stage .cloned {
+    padding-top: 18px;
+}
+
+.owl-stage .center {
+    padding-top: 0;
+}
+
+.owl-next span {
+    content: url("/img/right_arrow.png");
+    position: absolute;
+}
+
+.owl-prev span {
+    content: url("/img/left_arrow.png");
+    position: absolute;
+    left: -5%;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#carouselOne {
+    position: relative;
+}
+
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
