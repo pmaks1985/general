@@ -203,7 +203,98 @@
                     </a>
                 </div>
             </div>
-            <div style="margin-top: 90px;">Популярные товары</div>
+            <div class="popular-goods w-100">
+                <div class="popular-goods_title">Популярные товары</div>
+                <div class="row popular-goods_description owl-carousel" id="carouselTwo">
+                    <div class="col-lg-12">
+                        <div class="card-interest d-flex flex-column align-items-center">
+                            <img src="/img/docs.png" class="card-interest_img"
+                                alt="Инструкция по оказанию первой помощи для ж/д вокзала"
+                                title="Инструкция по оказанию первой помощи для ж/д вокзала">
+                            <div class="text-center card-interest_text">Инструкция по оказанию первой помощи для ж/д
+                                вокзала
+                            </div>
+                            <div class="card-interest_price">
+                                <span class="price-new">Бесплатно</span>
+                            </div>
+                            <div class="card-interest_button">
+                                <a href="#"
+                                    class="btn-outline-danger text-decoration-none buy-button_link card-interest_button__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card-interest d-flex flex-column align-items-center">
+                            <img src="/img/docs.png" class="card-interest_img"
+                                alt="Инструкция по оказанию первой помощи для кофейни"
+                                title="Инструкция по оказанию первой помощи для кофейни">
+                            <div class="text-center card-interest_text">Инструкция по оказанию первой помощи для кофейни
+                            </div>
+                            <div class="card-interest_price">
+                                <span class="price-new">Бесплатно</span>
+                            </div>
+                            <div class="card-interest_button">
+                                <a href="#"
+                                    class="btn-outline-danger text-decoration-none buy-button_link card-interest_button__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card-interest d-flex flex-column align-items-center">
+                            <img src="/img/docs.png" class="card-interest_img"
+                                alt="Инструкция по оказанию первой помощи для аптеки"
+                                title="Инструкция по оказанию первой помощи для аптеки">
+                            <div class="text-center card-interest_text">Инструкция по оказанию первой помощи для аптеки
+                            </div>
+                            <div class="card-interest_price">
+                                <span class="price-new">Бесплатно</span>
+                            </div>
+                            <div class="card-interest_button">
+                                <a href="#"
+                                    class="btn-outline-danger text-decoration-none buy-button_link card-interest_button__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card-interest d-flex flex-column align-items-center">
+                            <img src="/img/docs.png" class="card-interest_img"
+                                alt="Инструкция по оказанию первой помощи для спортивной школы"
+                                title="Инструкция по оказанию первой помощи для спортивной школы">
+                            <div class="text-center card-interest_text">Инструкция по оказанию первой помощи для
+                                спортивной
+                                школы</div>
+                            <div class="card-interest_price">
+                                <span class="price-new">Бесплатно</span>
+                            </div>
+                            <div class="card-interest_button">
+                                <a href="#"
+                                    class="btn-outline-danger text-decoration-none buy-button_link card-interest_button__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="card-interest d-flex flex-column align-items-center">
+                            <img src="/img/docs.png" class="card-interest_img"
+                                alt="Инструкция по оказанию первой помощи для ж/д вокзала"
+                                title="Инструкция по оказанию первой помощи для ж/д вокзала">
+                            <div class="text-center card-interest_text">Инструкция по оказанию первой помощи для ж/д
+                                вокзала
+                            </div>
+                            <div class="card-interest_price">
+                                <span class="price-new">Бесплатно</span>
+                            </div>
+                            <div class="card-interest_button">
+                                <a href="#"
+                                    class="btn-outline-danger text-decoration-none buy-button_link card-interest_button__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
             <div class="why-are-we row w-100 mx-0">
                 <div class="why-are-we_text col-lg-5 pl-0">
                     <div class="how-work_title">Почему мы?</div>
@@ -244,7 +335,7 @@
         $(document).ready(function () {
             $('#carouselOne').owlCarousel({
                 loop: true, //Зацикливаем слайдер
-                margin: 18, //Отступ от элемента справа в 18px
+                margin: 5, //Отступ от элемента справа в 5px
                 nav: true, //Включение навигации
                 //autoplay: true, //Автозапуск слайдера
                 smartSpeed: 1000, //Время движения слайда
@@ -263,6 +354,27 @@
                     }
                 }
             });
+
+            $('#carouselTwo').owlCarousel({
+                loop: true, //Зацикливаем слайдер
+                margin: 5, //Отступ от элемента справа в 5px
+                nav: true, //Включение навигации
+                //autoplay: true, //Автозапуск слайдера
+                smartSpeed: 1000, //Время движения слайда
+                autoplayTimeout: 2000, //Время смены слайда
+                responsive: { //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+
         });
     </script>
 

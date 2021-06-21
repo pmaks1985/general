@@ -208,6 +208,22 @@
   min-height: 180px;
 }
 
+.popular-goods {
+  padding-top: 90px;
+}
+
+.popular-goods_title {
+  font-family: "MullerNarrow-ExtraBold";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #343a40;
+}
+
+.popular-goods_description {
+  padding-top: 30px;
+}
+
 .why-are-we {
   padding-top: 90px;
 }
