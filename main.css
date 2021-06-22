@@ -60,11 +60,11 @@
 }
 
 .promoter {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 28px;
   font-weight: 400;
   color: #343a40;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .promoter_title {
@@ -79,7 +79,7 @@
   background-color: #ffffff;
   border: 2px solid #f5efe9;
   border-radius: 8px;
-  padding: 10px 30px 35px 30px;
+  padding: 10px 30px 30px 30px;
   margin-top: 20px;
 }
 
@@ -98,7 +98,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .three-steps_cards__text {
@@ -154,11 +154,11 @@
   line-height: 28px;
   font-weight: 400;
   color: #343a40;
-  padding-top: 35px;
+  padding-top: 10px;
 }
 
 .how-work {
-  padding-top: 85px;
+  padding-top: 80px;
 }
 
 .how-work_title {
@@ -179,7 +179,7 @@
 }
 
 .directions {
-  padding-top: 90px;
+  padding-top: 75px;
   width: 100%;
 }
 
@@ -209,7 +209,7 @@
 }
 
 .popular-goods {
-  padding-top: 90px;
+  padding-top: 85px;
 }
 
 .popular-goods_title {
@@ -221,11 +221,11 @@
 }
 
 .popular-goods_description {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .why-are-we {
-  padding-top: 90px;
+  padding-top: 65px;
 }
 
 .why-are-we_text__description {
